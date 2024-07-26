@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>El sitio de JSUAZO</title>
+    <link>https://jsuazo-class.online/</link>
+    <description>Recent content on El sitio de JSUAZO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-CL</language>
+    <lastBuildDate>Fri, 26 Jul 2024 13:28:43 -0400</lastBuildDate>
+    <atom:link href="https://jsuazo-class.online/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prueba de post JSUAZO</title>
+      <link>https://jsuazo-class.online/posts/my-first-post/</link>
+      <pubDate>Fri, 26 Jul 2024 13:28:43 -0400</pubDate>
+      <guid>https://jsuazo-class.online/posts/my-first-post/</guid>
+      <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vel libero sit amet fringilla.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://jsuazo-class.online/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jsuazo-class.online/about/</guid>
+      <description>About Mis datos Mensaje de datos</description>
+    </item>
+  </channel>
+</rss>
