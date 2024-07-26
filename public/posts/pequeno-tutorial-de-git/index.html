@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-CL" lang="es-CL">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>Pequeno Tutorial De Git &middot; El sitio de JSUAZO</title>
+
+  <meta name="description" content="" />
+
+  <meta itemprop="name" content="Pequeno Tutorial De Git">
+<meta itemprop="description" content="Pequeño Tutorial de Git: Controla tu código como un profesional ¿Qué es Git?"><meta itemprop="datePublished" content="2024-07-26T14:10:13-04:00" />
+<meta itemprop="dateModified" content="2024-07-26T14:10:13-04:00" />
+<meta itemprop="wordCount" content="430">
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Pequeno Tutorial De Git"/>
+<meta name="twitter:description" content="Pequeño Tutorial de Git: Controla tu código como un profesional ¿Qué es Git?"/>
+
+
+<meta property="og:title" content="Pequeno Tutorial De Git" />
+<meta property="og:description" content="Pequeño Tutorial de Git: Controla tu código como un profesional ¿Qué es Git?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jsuazo-class.online/posts/pequeno-tutorial-de-git/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-07-26T14:10:13-04:00" />
+<meta property="article:modified_time" content="2024-07-26T14:10:13-04:00" />
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "https://jsuazo-class.online/#author",
+      "name": "Joaquin Suazo",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "https://enunezfweb.nyc3.cdn.digitaloceanspaces.com/media/img/avatar.png"
+        
+      },
+      "description": "Blog JSUAZO"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jsuazo-class.online/#website",
+      "url": "https://jsuazo-class.online/",
+      "name": "El sitio de JSUAZO",
+      "description": "Blog JSUAZO",
+      "publisher": {
+        "@id": "https://jsuazo-class.online/#author"
+      },
+      "inLanguage": "es-CL"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://jsuazo-class.online/posts/pequeno-tutorial-de-git/#webpage",
+      "url": "https://jsuazo-class.online/posts/pequeno-tutorial-de-git/",
+      "name": "Pequeno Tutorial De Git",
+      "isPartOf": {
+        "@id": "https://jsuazo-class.online/#website"
+      },
+      "about": {
+         "@id": "https://jsuazo-class.online/#author"
+      },
+      "datePublished": "2024-07-26T14:10:13-04:00",
+      "dateModified": "2024-07-26T14:10:13-04:00",
+      "description": "Pequeño Tutorial de Git: Controla tu código como un profesional ¿Qué es Git?",
+      "inLanguage": "es-CL",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://jsuazo-class.online/posts/pequeno-tutorial-de-git/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "https://jsuazo-class.online/posts/pequeno-tutorial-de-git/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://jsuazo-class.online/posts/pequeno-tutorial-de-git/#webpage"
+      },
+      "headline": "Pequeno Tutorial De Git",
+      "datePublished": "2024-07-26T14:10:13-04:00",
+      "dateModified": "2024-07-26T14:10:13-04:00",
+      "publisher": {
+        "@id": "https://jsuazo-class.online/#author"
+      },
+      "keywords": [
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "es-CL",
+      "author": {
+        "@type": "Person",
+        "name":  null 
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://jsuazo-class.online/posts/pequeno-tutorial-de-git/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/hyde.css">
+
+  
+
+
+  <link type="text/css" rel="stylesheet" href="/css/blog.css">
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  </head>
+<body>
+  <aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+        
+        <div class="author-image">
+          <a href="https://jsuazo-class.online/">
+            <img src="https://enunezfweb.nyc3.cdn.digitaloceanspaces.com/media/img/avatar.png" class="img-circle img-headshot center" alt="Profile Picture">
+          </a>
+        </div>
+        
+      
+
+      <h1>El sitio de JSUAZO</h1>
+
+      
+      <p class="lead">Blog JSUAZO</p>
+      
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="https://jsuazo-class.online/">Home</a>
+        </li>
+        <li>
+          <a href="/posts/">Posts</a>
+        </li><li>
+          <a href="/about/">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+      <a href="#" rel="me" title="Linkedin" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+      
+      <a href="#" rel="me" title="GitHub" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      
+      <a href="#" rel="me" title="Twitter" target="_blank">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      
+    </section>
+  </div>
+</aside>
+
+
+  <main class="content container">
+  <div class="post">
+  <h1 class="title">Pequeno Tutorial De Git</h1>
+  
+
+  <div class="post-date">
+    <time datetime="2024-07-26T14:10:13-0400">Jul 26, 2024</time> <span class="readtime">&middot; 3 min read</span>
+  </div>
+
+  <div>
+  <h2 id="pequeño-tutorial-de-git-controla-tu-código-como-un-profesional">Pequeño Tutorial de Git: Controla tu código como un profesional</h2>
+<h3 id="qué-es-git">¿Qué es Git?</h3>
+<p>Imagina que estás escribiendo un libro. Cada vez que avanzas, guardas una copia. Si cometes un error, puedes volver a una versión anterior. Git hace esto mismo, pero con código.</p>
+<p>Es un <strong>sistema de control de versiones distribuido</strong>, lo que significa que cada desarrollador tiene una copia completa del historial del proyecto en su computadora. Esto permite trabajar sin conexión y facilita la colaboración en equipo.</p>
+<h3 id="un-poco-de-historia">Un Poco de Historia</h3>
+<p>Creado por Linus Torvalds (el mismo de Linux) en 2005, Git nació de la necesidad de un sistema de control de versiones rápido y eficiente para el desarrollo del kernel de Linux. Su diseño innovador lo popularizó rápidamente, convirtiéndolo en el estándar de la industria.</p>
+<h3 id="comandos-más-usados">Comandos Más Usados:</h3>
+<ul>
+<li><strong>git init:</strong> Crea un nuevo repositorio Git en la carpeta actual.</li>
+<li><strong>git clone <!-- raw HTML omitted -->:</strong> Copia un repositorio remoto a tu máquina local.</li>
+<li><strong>git add <!-- raw HTML omitted -->:</strong> Agrega un archivo al área de preparación (staging area), listo para ser &ldquo;commiteado&rdquo;.</li>
+<li><strong>git commit -m &ldquo;Mensaje descriptivo&rdquo;:</strong> Guarda los cambios del área de preparación en el historial del repositorio.</li>
+<li><strong>git status:</strong> Muestra el estado de los archivos (modificados, agregados, etc.).</li>
+<li><strong>git push:</strong> Envía los &ldquo;commits&rdquo; locales al repositorio remoto.</li>
+<li><strong>git pull:</strong> Descarga los cambios del repositorio remoto y los integra en tu rama local.</li>
+<li><strong>git branch &lt;nombre_rama&gt;:</strong> Crea una nueva rama.</li>
+<li><strong>git checkout &lt;nombre_rama&gt;:</strong> Cambia a la rama especificada.</li>
+<li><strong>git merge &lt;nombre_rama&gt;:</strong> Fusiona la rama especificada con la rama actual.</li>
+<li><strong>git log:</strong> Muestra el historial de &ldquo;commits&rdquo; en la rama actual.</li>
+</ul>
+<h3 id="flujo-de-trabajo-básico">Flujo de Trabajo Básico:</h3>
+<ol>
+<li><strong>Clonar o crear un repositorio:</strong> <code>git clone &lt;URL&gt;</code> o <code>git init</code>.</li>
+<li><strong>Crear una rama para tu nueva funcionalidad:</strong> <code>git checkout -b &lt;nombre_rama&gt;</code>.</li>
+<li><strong>Hacer cambios en los archivos.</strong></li>
+<li><strong>Agregar los archivos modificados al área de preparación:</strong> <code>git add &lt;archivo&gt;</code> o <code>git add .</code> para agregar todos.</li>
+<li><strong>Confirmar los cambios con un mensaje descriptivo:</strong> <code>git commit -m &quot;Mensaje descriptivo&quot;</code>.</li>
+<li><strong>Repetir los pasos 3 a 5 hasta que la funcionalidad esté completa.</strong></li>
+<li><strong>Cambiar a la rama principal:</strong> <code>git checkout main</code>.</li>
+<li><strong>Actualizar la rama principal con los cambios del remoto:</strong> <code>git pull</code>.</li>
+<li><strong>Fusionar tu rama con la rama principal:</strong> <code>git merge &lt;nombre_rama&gt;</code>.</li>
+<li><strong>Resolver cualquier conflicto de fusión que pueda surgir.</strong></li>
+<li><strong>Enviar los cambios al repositorio remoto:</strong> <code>git push</code>.</li>
+</ol>
+<h3 id="recursos-adicionales">Recursos Adicionales:</h3>
+<ul>
+<li><strong>Documentación oficial de Git:</strong> <a href="https://git-scm.com/doc">https://git-scm.com/doc</a></li>
+<li><strong>Tutorial interactivo de Git:</strong> <a href="https://try.github.io/">https://try.github.io/</a></li>
+<li><strong>Libro Pro Git (gratuito):</strong> <a href="https://git-scm.com/book/es/v2">https://git-scm.com/book/es/v2</a></li>
+</ul>
+<p>Este tutorial cubre lo básico de Git. A medida que te familiarices con él, descubrirás comandos y flujos de trabajo más avanzados que te ayudarán a colaborar en proyectos de desarrollo de software de forma más efectiva.</p>
+
+  </div>
+
+  
+
+
+  <div class="share-buttons">
+  <a class="twitter-share-button"
+     href="#"
+     title="Share on Twitter"
+     data-url="https://jsuazo-class.online/posts/pequeno-tutorial-de-git/"
+     data-text="Pequeno Tutorial De Git"><i class="fab fa-twitter"></i></a>
+
+  <a class="linkedin-share-button"
+     href="#"
+     title="Share on LinkedIn"
+     data-url="https://jsuazo-class.online/posts/pequeno-tutorial-de-git/"
+     data-text="Pequeno Tutorial De Git"><i class="fab fa-linkedin-in"></i></a>
+
+  <a class="facebook-share-button"
+     href="#"
+     title="Share on Facebook"
+     data-url="https://jsuazo-class.online/posts/pequeno-tutorial-de-git/"
+     data-text="Pequeno Tutorial De Git"><i class="fab fa-facebook"></i></a>
+
+  <a class="telegram-share-button"
+     href="#"
+     title="Share on Telegram"
+     data-url="https://jsuazo-class.online/posts/pequeno-tutorial-de-git/"
+     data-text="Pequeno Tutorial De Git"><i class="fab fa-telegram"></i></a>
+
+  <a class="pinterest-share-button"
+     href="#"
+     title="Share on Pinterest"
+     data-url="https://jsuazo-class.online/posts/pequeno-tutorial-de-git/"
+     data-text="Pequeno Tutorial De Git"><i class="fab fa-pinterest"></i></a>
+</div>
+
+
+  
+</div>
+  </main>
+
+  <footer>
+  <div>
+    <p>
+      &copy; Author Name 2024
+
+      &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+
+      
+    </p>
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
+
+  <script src="/js/blog.js"></script>
+
+    
+      
+    
+</body>
+</html>

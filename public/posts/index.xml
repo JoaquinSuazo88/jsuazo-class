@@ -6,8 +6,15 @@
     <description>Recent content in Posts on El sitio de JSUAZO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-CL</language>
-    <lastBuildDate>Fri, 26 Jul 2024 13:28:43 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2024 14:10:13 -0400</lastBuildDate>
     <atom:link href="https://jsuazo-class.online/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pequeno Tutorial De Git</title>
+      <link>https://jsuazo-class.online/posts/pequeno-tutorial-de-git/</link>
+      <pubDate>Fri, 26 Jul 2024 14:10:13 -0400</pubDate>
+      <guid>https://jsuazo-class.online/posts/pequeno-tutorial-de-git/</guid>
+      <description>Pequeño Tutorial de Git: Controla tu código como un profesional ¿Qué es Git?</description>
+    </item>
     <item>
       <title>Prueba de post JSUAZO</title>
       <link>https://jsuazo-class.online/posts/my-first-post/</link>
